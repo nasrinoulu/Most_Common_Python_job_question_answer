@@ -9,3 +9,6 @@ Python also has an inbuilt garbage collector, which recycles all the unused memo
 
 # 3) What is the difference between list and tuple?
 The difference between list and tuple is that list is mutable while tuple is not. Tuple can be hashed, for example., as a key for dictionaries.
+
+# 4) How are arguments passed by value or by reference?
+Everything in Python is an object, and all variables hold references to the objects. The reference values are according to the functions. Therefore, you cannot change the value of the references. However, you can change the objects if it is mutable.
